@@ -16,6 +16,6 @@ public class DemoTest {
 
   @AfterMethod
   public void afterMethod() {
-	  System.out.println("AfterMethod");
+	  System.out.println(" Executing AfterMethod");
   }
 }
