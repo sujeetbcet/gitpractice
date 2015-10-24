@@ -21,7 +21,7 @@ public class DemoTest {
   @AfterMethod
   public void afterMethod() throws InterruptedException {
 	  System.out.println(" Executing AfterMethod");
-	  Thread.sleep(5000);
+	  Thread.sleep(10000);
 	  driver.close();
   }
 }
